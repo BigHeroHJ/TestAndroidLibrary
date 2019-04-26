@@ -1,0 +1,19 @@
+//apply plugin:'maven'
+//
+//
+//afterEvaluate {
+//    project ->
+//        uploadArchives{
+//            repositories {
+//                mavenDeployer {
+//                    pom.groupId = 'gacaoLocalGroup'
+//                    pom.artifactId = 'CGATestUploadMaven_app'
+//                    pom.version = '1.0.0-SNAPSHOT'
+//
+//                    repository (url : 'http://localhost:8081/repository/gacaoLocalGroup/') {
+//                        authentication(userName: 'admin', password: 'admin123')
+//                    }
+//                }
+//            }
+//        }
+//}
